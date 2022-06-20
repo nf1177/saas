@@ -2,7 +2,6 @@ import pandas as pd
 import streamlit as st
 from PIL import Image
 import time
-import plotly.express as px
 import altair as alt
 
 # データの読みこみ
