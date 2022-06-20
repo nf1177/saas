@@ -1,6 +1,5 @@
 import pandas as pd
 import streamlit as st
-from PIL import Image
 import time
 import altair as alt
 
@@ -11,7 +10,7 @@ data = pd.read_csv("saas.csv")
 # data = data.round({'リスク値': 0})
 # Find more emojis here: https://www.webfx.com/tools/emoji-cheat-sheet/
 st.set_page_config(page_title="エコアクア：節水測定",
-                   page_icon=":computer:", layout="wide")
+                   page_icon=":computer:")
 
 # 画像読み込み
 
